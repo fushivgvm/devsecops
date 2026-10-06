@@ -1,15 +1,16 @@
-import os, sys, math
+"""
+Modul untuk pengujian fungsi matematika sederhana.
+"""
 
-x = 10
 
-def Bad_Function_Name( A, B, C, D, E, F ):
- global x
- l = 1; O = 0
- if A == True:
-  if B == False:
-   if C == None:
-    try: print(eval("A + B")); res = E[0] + F + l + O
-    except: pass
- else: return None
+def calculate_sum(val_a, val_b):
+    """
+    Menghitung jumlah dua angka dan mengembalikan hasilnya.
+    """
+    total = val_a + val_b
+    return total
 
-Bad_Function_Name(True, False, None, 1, [2], 3)
+
+if __name__ == "__main__":
+    RESULT = calculate_sum(10, 20)
+    print(f"Hasil penjumlahan: {RESULT}")
