@@ -23,7 +23,7 @@ def x(val_a, val_b):
 
 
 if __name__ == "__main__":
-    x(1, 2)otal
+    x(1, 2)total
 
 
 if __name__ == "__main__":
