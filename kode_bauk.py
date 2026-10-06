@@ -14,3 +14,4 @@ def calculate_sum(val_a, val_b):
 if __name__ == "__main__":
     RESULT = calculate_sum(10, 20)
     print(f"Hasil: {RESULT}")
+    
