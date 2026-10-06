@@ -8,7 +8,22 @@ def calculate_sum(val_a, val_b):
     Menghitung jumlah dua angka dan mengembalikan hasilnya.
     """
     total = val_a + val_b
-    return total
+    return t"""
+Modul perhitungan sederhana.
+"""
+
+
+def x(val_a, val_b):
+    """
+    Menjumlahkan dua nilai dan mencetak hasilnya.
+    """
+    val_c = val_a + val_b
+    print(val_c)
+    return val_c
+
+
+if __name__ == "__main__":
+    x(1, 2)otal
 
 
 if __name__ == "__main__":
