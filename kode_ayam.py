@@ -14,3 +14,4 @@ def add_numbers(first_num, second_num):
 
 if __name__ == "__main__":
     add_numbers(1, 2)
+    
