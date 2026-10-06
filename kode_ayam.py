@@ -1,6 +1,16 @@
-def x(a,b):
-    c=a+b
-    print(c)
-    return c
+"""
+Modul fungsi tambahan sederhana.
+"""
 
-x(1,2)
+
+def add_numbers(first_num, second_num):
+    """
+    Menjumlahkan dua angka.
+    """
+    result = first_num + second_num
+    print(result)
+    return result
+
+
+if __name__ == "__main__":
+    add_numbers(1, 2)
